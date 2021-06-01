@@ -6,9 +6,9 @@
 
 // alert('privet');
 
-// const result = confirm("are you here?");
+ const result = confirm("are you here?");
 
-// console.log(result);
+ console.log(result);
 
 // 
 
