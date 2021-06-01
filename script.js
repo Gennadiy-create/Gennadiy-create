@@ -4,15 +4,12 @@
 
 // console.log(arr[3]);
 
-// alert('privet');
+ alert('privet');
 
  const result = confirm("are you here?");
 
  console.log(result);
 
-// 
-
-// 
 
 const user = "Ivan";
 
