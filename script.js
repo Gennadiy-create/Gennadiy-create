@@ -1,20 +1,21 @@
-"use strict";
+'use strict';
 
-// let arr = ['tola', 'ola', 5, 'motiv'];
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-// console.log(arr[3]);
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-//  alert('privet');
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
 
-//  const result = confirm("are you here?");
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-//  console.log(result);
-
-
-// const user = "Ivan";
-
-// alert( `Privet, ${user}`);
-
-let numberOfFilms = confirm("Сколько фиотмов вы уже посмотрели?");
-
-alert('privet');
+console.log(personalMovieDB);
