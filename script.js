@@ -4,13 +4,17 @@
 
 // console.log(arr[3]);
 
- alert('privet');
+//  alert('privet');
 
- const result = confirm("are you here?");
+//  const result = confirm("are you here?");
 
- console.log(result);
+//  console.log(result);
 
 
-const user = "Ivan";
+// const user = "Ivan";
 
-alert( `Privet, ${user}`);
+// alert( `Privet, ${user}`);
+
+let numberOfFilms = confirm("Сколько фиотмов вы уже посмотрели?");
+
+alert('privet');
