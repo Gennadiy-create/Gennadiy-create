@@ -10,12 +10,102 @@ const personalMovieDB = {
     privat: false
 };
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//       b = prompt('На сколько оцените его?', ''),
+//       c = prompt('Один из последних просмотренных фильмов?', ''),
+//       d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//           b = prompt('На сколько оцените его?', '');
+
+//     if (a !=null && b !=null && a !="" && b !="" && a.length < 50) {
+        
+//     personalMovieDB.movies[a] = b;
+//     console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+
+// }
+
+ console.log(personalMovieDB);
+
+//const num = 8;
+
+// if (num < 7) {
+//     console.log('Error');
+// } else if (num > 10) {
+//     console.log('Much');
+// } else {
+//     console.log('Ok!');
+// }
+
+//  switch (num) {
+//     case 6:
+//         console.log('false');
+//         break;
+//     case 10:
+//         console.log("fal");
+//         break;
+//     case 7:
+//         console.log("ToChno!");
+//         break;
+//     default:
+//         console.log("No this time");
+//         break;    
+// }     
+
+let num = 0;
+
+// while (num < 2) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//           b = prompt('На сколько оцените его?', '');
+
+// if (a !=null && b !=null && a !="" && b !="" && a.length < 50) {
+  
+// personalMovieDB.movies[a] = b;
+// console.log('done');
+// } else {
+//   console.log('error');
+//   i--;
+// }
+
+//     console.log(num);
+//     num++;
+// }
+// console.log(personalMovieDB);
+
+
+do {
+    const a = prompt('Один из последних просмотренных фильмов?', ''),
+    b = prompt('На сколько оцените его?', '');
+
+if (a !=null && b !=null && a !="" && b !="" && a.length < 50) {
 
 personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+console.log('done');
+} else {
+console.log('error');
+i--;
+}
+
+    console.log(num);
+    num++;
+}
+while (num < 2);
 
 console.log(personalMovieDB);
+
+
+// for (let i = 1; i < 11; i++) {
+//     if (i === 8) {
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+// }
