@@ -60,7 +60,7 @@ const personalMovieDB = {
 //         break;    
 // }     
 
-let num = 0;
+//let num = 0;
 
 // while (num < 2) {
 //     const a = prompt('Один из последних просмотренных фильмов?', ''),
@@ -81,25 +81,25 @@ let num = 0;
 // console.log(personalMovieDB);
 
 
-do {
-    const a = prompt('Один из последних просмотренных фильмов?', ''),
-    b = prompt('На сколько оцените его?', '');
+// do {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = prompt('На сколько оцените его?', '');
 
-if (a !=null && b !=null && a !="" && b !="" && a.length < 50) {
+// if (a !=null && b !=null && a !="" && b !="" && a.length < 50) {
 
-personalMovieDB.movies[a] = b;
-console.log('done');
-} else {
-console.log('error');
-i--;
-}
+// personalMovieDB.movies[a] = b;
+// console.log('done');
+// } else {
+// console.log('error');
+// i--;
+// }
 
-    console.log(num);
-    num++;
-}
-while (num < 2);
+//     console.log(num);
+//     num++;
+// }
+// while (num < 2);
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
 
 // for (let i = 1; i < 11; i++) {
@@ -109,3 +109,52 @@ console.log(personalMovieDB);
 //     }
 //     console.log(i);
 // }
+
+// function Testo(w){
+//     console.log(w);
+// }
+
+// Testo("Privet Medved!");
+
+const options = {
+    name: 'Alex',
+    suname: 'Petrov',
+    clientId: '2456',
+    email: 'ddd@ebot.com',
+    vizits: {
+        youtube: 'video',
+        pinterest: "pins",
+        insagram: 'photos'
+    },
+    makeTest: function() {
+    console.log('Testor');
+}
+};
+
+options.makeTest();
+
+// console.log(options.name);
+
+// console.log(options ["vizits"]["youtube"]);
+
+
+    const {youtube, pinterest, insagram} = options.vizits;
+    console.log(pinterest);
+// console.log(Object.keys(options).length);
+
+// console.log(options);
+
+// let counter = 0;
+// for (let key in options) {
+//     if (typeof(options[key]) === 'object') {
+//         for (let i in options[key]) {
+//             console.log(`Propertis ${i} have means ${options[key][i]}`);
+//         } 
+//     } else {
+//        console.log(`Propertis ${key} have means ${options[key]}`);
+//        counter++;
+//     }
+// }
+
+// console.log(counter);
+
